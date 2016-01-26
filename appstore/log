@@ -1,0 +1,30 @@
+2016-01-24 21:57:28 [scrapy] INFO: Scrapy 1.0.4 started (bot: appstore)
+2016-01-24 21:57:28 [scrapy] INFO: Optional features available: ssl, http11
+2016-01-24 21:57:28 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'appstore.spiders', 'SPIDER_MODULES': ['appstore.spiders'], 'LOG_FILE': 'log', 'BOT_NAME': 'appstore'}
+2016-01-24 21:57:29 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-01-24 21:57:29 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-01-24 21:57:29 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-01-24 21:57:29 [scrapy] INFO: Enabled item pipelines: 
+2016-01-24 21:57:29 [scrapy] INFO: Spider opened
+2016-01-24 21:57:29 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-01-24 21:57:29 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-01-24 21:57:31 [scrapy] DEBUG: Crawled (200) <GET http://appstore.huawei.com/more/all> (referer: None)
+2016-01-24 21:57:31 [scrapy] INFO: Closing spider (finished)
+2016-01-24 21:57:31 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 225,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 13900,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 1, 25, 2, 57, 31, 726000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 1, 25, 2, 57, 29, 470000)}
+2016-01-24 21:57:31 [scrapy] INFO: Spider closed (finished)
